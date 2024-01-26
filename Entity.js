@@ -2,14 +2,13 @@ class Entity
 {
     constructor(x, y, speed)
     {
-        this.x = x;
-        this.y = y;
-        this.speed = speed;
+        this.pos = createVector(x, y)
+        this.speed = createVector(0, speed)
     }
 
     whatever()
     {
-        
+
     }
 
 }
